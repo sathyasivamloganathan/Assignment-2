@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.userList{
+    /* width: 100%; */
+    border-collapse: collapse;
+    min-width: 400px;
+}
+
+
+.checkBox,.name,.email,.role,.actions{
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: left;
+
+}
+
+th{
+    background: #f2f2f2;
+}
+
+th:first-child, td:first-child{
+    width: 40px;
+    text-align: center;
+}
+
+tr.selected{
+    background-color: red;
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.ActionSaveEditButton{
+    margin: 3px;
+    /* background: green; */
+    color: green;
+    outline: none;
+    border: none;
+    transition: none;
+    border-radius: 3px;
+}
+
+.ActionDeleteButton{
+    margin: 3px;
+    /* background: red; */
+    color: red;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    transition: none;
+}
+
+.ActionDeleteButton:hover{
+    background: white;
+}
+
+.ActionSaveEditButton:hover{
+    background: white;
+}
+
+.name{
+    text-align: center;
+    min-width: 16em;
+}
+
+.email{
+    text-align: center;
+    min-width: 20em;
+}
+
+.role{
+    text-align: center;
+    min-width: 10em;
+}
+
+.actions{
+    min-width: 7em;
+}
+
+.search{
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panelSearch{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.deleteSelectedbutton{
+    background: rgb(221, 50, 84);
+    outline: none;
+    border: none;
+    transition: none;
+    border-radius: 3px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.selectedPages{
+    flex: 2;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.pg-number{
+    flex: 1;
+}
+
+.pageList{
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+
+.paginationButton{
+    margin-right: 5px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    transition: none;
+    background: rgb(199, 181, 181);
+}
+
+.paginationButton:hover{
+    background: white;
+}
+
+/* .checkBox.checked input:checked{
+    background-color: red;
+} */
